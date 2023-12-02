@@ -1,0 +1,240 @@
+body{
+    font-family: Roboto;
+    margin: 0;
+    background: linear-gradient(to right, white,#cfcece);
+}
+.black{
+    background: linear-gradient(to right, #696969, #272727);
+    color: #9e9e9e;
+}
+a{
+    text-decoration: none;
+}
+#name{
+    font-family: Vina Sans;
+    font-size: 50px;
+    margin: 2px 2px 2px 20px;
+    color: #3399ff;
+}
+.other{
+    margin: 10px;
+}
+.head{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#FAQ{
+    color: black;
+    font-size: 20px;
+}
+.theme{
+    width: 20px;
+}
+#theme{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.navigate{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin: 20px;
+}
+.navigation{
+    font-size: 40px;
+    color: #3399ff;
+}
+.split{
+    background-image: linear-gradient(to right, transparent, #3399ff, transparent);
+    border: 0;
+    height: 2px;
+    margin: 20px 0 20px 0;
+    box-sizing:content-box;
+    display: block;
+}
+.information{
+    display: flex;
+    flex-wrap: wrap;
+    color: #3399ff;
+    position: relative;
+    justify-content: center;
+    width: auto;
+}
+#information-text1{
+    font-size: 30px;
+}
+#information-text2{
+    font-size: 25px;
+}
+#information-name{
+    font-size: 40px;
+    font-family: Vina Sans;
+}
+.all-way{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin: 40px;
+}
+.way-text{
+    color: black;
+    padding: 10px;
+}
+.way{
+    border: 1px solid #3399ff;
+    border-radius: 30px;
+    padding: 2px;
+    color: black;
+}
+.way:hover{
+    background-color: #3399ff;
+    transition: 0.4s;
+}
+.data{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.data-base{
+    border: 2px solid transparent;
+    border-radius: 20px;
+    padding: 10px;
+    height: auto;
+    box-shadow:0 0 20px #555;
+    margin: 30px 0px 30px 0px;
+}
+.count{
+    border: 1px solid #3399ff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+}
+.count:focus-visible{
+    outline: 2px dotted grey;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+}
+.data-help{
+    color: #3399ff;
+    margin: 70px 20px 0px 0px;
+}
+.btn-send{
+    border: 1px solid #3399ff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    width: 84%;
+}
+.btn-send:hover{
+    background-color: #3399ff;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.btn-send:active{
+    background-color: #09f509;
+    transition: 0.1s;
+}
+.contacts{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow:0 0 20px #555;
+    width: 600px;
+    text-align: center;
+}
+.phone{
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+}
+.geo{
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+}
+#u-20{
+    display: flex;
+    justify-content: center;
+    margin: 100px 0px 30px 0px;
+}
+#u0{
+    width: 100%;
+}
+footer{
+    border: 1px solid transparent;
+    box-shadow:0 0 20px #555;
+    border-radius: 20px 20px 0px 0px;
+    height: auto;
+    background-color: #555;
+}
+.footer-navigation{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    padding: 20px;
+    font-size: 20px;
+}
+.link{
+    color: black;
+}
+.soc{
+    height: 70px;
+}
+.disabled {
+    pointer-events: none;
+    background-color: #555;
+    border-color: #555;
+    opacity: 0.65;
+    user-select: none;
+}
+.road-card{
+    border: 1px solid #3399ff;
+    border-radius: 20px;
+    width: 32%;
+}
+.road-flex-all{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 300px;
+    gap: 15px;
+    height: auto;
+}
+.price {
+    font-size: 20px;
+    font-weight: bolder;
+}
+.buy{
+    background-color: transparent;
+    margin: 20px;
+    border: 1px solid #3399ff;
+    border-radius: 20px;
+    padding: 20px;
+    cursor: pointer;
+}
+.buy:hover{ 
+    background-color: #3399ff;
+    transition: 0.4s;
+}
+.buy:active{
+    background-color: #09f509;
+}
+@media (max-width:960px){
+.road-card {width:33%}
+}
+@media (max-width:750px){
+    .road-card {width:100%}
+    }
+@media (max-width:375px){
+    .road-card {width:100%}
+    .information {text-align: center;}
+    .footer-navigation{gap: 0px;}
+}
